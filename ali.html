@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Alii</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            position: relative;
+            overflow: hidden;
+        }
+        .gif {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            background-color: #ff69b4; /* Pink background color */
+            transition: transform 0.3s ease-out;
+        }
+
+        .btn-yes {
+        background-color: #ff69b4; /* Pink background color */
+    }
+
+    .btn-no {
+        background-color: #ff69b4; /* Pink background color */
+    }
+    .btn-no:hover {
+        transform: translate(2250px, 0); /* Move 20px to the right on hover */
+    }
+    </style>
+</head>
+<body>
+    <div class="container text-center">
+        <iframe src="https://www.youtube.com/embed/ySWRyoiceEc?si=oExsdTCGr21OEDBP&amp;start=3" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="gif text-center">   
+        <h1>Can you give me another chance?</h1>
+        <img src="giphy.gif" alt="Animated GIF">
+        <br>
+        <button class="btn btn-yes" onclick="alert('Yehey!I love youuu!!')">Yes</button>
+        <button class="btn btn-no" onclick="alert('No button clicked!')">No</button>
+    </div>      
+</body>
+</html>
